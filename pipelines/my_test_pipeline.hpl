@@ -41,26 +41,6 @@
   </notepads>
   <order>
   </order>
-  <transform>
-    <name>Cassandra input</name>
-    <type>CassandraInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <cql_select_query>SELECT &lt;fields> FROM &lt;table> WHERE &lt;condition>;</cql_select_query>
-    <execute_for_each_row>N</execute_for_each_row>
-    <max_length/>
-    <attributes/>
-    <GUI>
-      <xloc>160</xloc>
-      <yloc>144</yloc>
-    </GUI>
-  </transform>
   <transform_error_handling>
   </transform_error_handling>
   <attributes/>
